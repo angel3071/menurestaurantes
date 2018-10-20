@@ -19,7 +19,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/enuestaurantes-20181020115549-deployment/amplify-cfn-templates/auth/cognitod84a8c9a-cloudformation-template.yml",
 				"logicalId": "authcognitod84a8c9a"
 			},
-			"lastPushTimeStamp": "2018-10-20T19:18:07.017Z",
+			"lastPushTimeStamp": "2018-10-20T23:55:24.054Z",
 			"output": {
 				"IdentityPoolId": "us-east-1:971cd5a9-e361-4deb-88b7-197d0717b443",
 				"IdentityPoolName": "menurestaurantes_identitypool_d860cb1f",
@@ -41,7 +41,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/enuestaurantes-20181020115549-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
 				"logicalId": "analyticsmenurestaurantes"
 			},
-			"lastPushTimeStamp": "2018-10-20T19:18:07.012Z",
+			"lastPushTimeStamp": "2018-10-20T23:55:24.054Z",
 			"output": {
 				"appName": "menurestaurantes",
 				"Region": "us-east-1",
@@ -58,12 +58,31 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/enuestaurantes-20181020115549-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
 				"logicalId": "storagemenurestaurants"
 			},
-			"lastPushTimeStamp": "2018-10-20T19:18:07.017Z",
+			"lastPushTimeStamp": "2018-10-20T23:55:24.063Z",
 			"output": {
 				"BucketName": "menurestaurantes00115e3d5cb94363b4fd344b8abb711d",
 				"Region": "us-east-1"
 			},
 			"lastPushDirHash": "6Z9MriwGSFABeBFQi66u5shIFm0="
+		},
+		"menurestaurantes": {
+			"service": "DynamoDB",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/enuestaurantes-20181020115549-deployment/amplify-cfn-templates/storage/menurestaurantes-cloudformation-template.json",
+				"logicalId": "storagemenurestaurantes"
+			},
+			"lastPushTimeStamp": "2018-10-20T23:55:24.065Z",
+			"output": {
+				"PartitionKeyName": "Id",
+				"SortKeyName": "Nombre",
+				"SortKeyType": "S",
+				"Region": "us-east-1",
+				"Arn": "arn:aws:dynamodb:us-east-1:551475543909:table/restaurantes",
+				"PartitionKeyType": "S",
+				"Name": "restaurantes"
+			},
+			"lastPushDirHash": "fsxAobMjL0gfUqvYTkWZ5+dV5Zs="
 		}
 	}
 }

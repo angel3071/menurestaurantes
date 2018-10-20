@@ -1,0 +1,7 @@
+{
+    "tableName": "restaurantes",
+    "partitionKeyName": "Id",
+    "partitionKeyType": "S",
+    "sortKeyName": "Nombre",
+    "sortKeyType": "S"
+}

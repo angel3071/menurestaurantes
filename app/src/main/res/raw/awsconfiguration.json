@@ -36,5 +36,10 @@
             "Bucket": "menurestaurantes00115e3d5cb94363b4fd344b8abb711d",
             "Region": "us-east-1"
         }
+    },
+    "DynamoDBObjectMapper": {
+        "Default": {
+            "Region": "us-east-1"
+        }
     }
 }

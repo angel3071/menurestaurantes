@@ -159,6 +159,19 @@
 					"unauthPermissions": "rw"
 				}
 			}
+		},
+		"storagemenurestaurantes": {
+			"Type": "AWS::CloudFormation::Stack",
+			"Properties": {
+				"TemplateURL": "https://s3.amazonaws.com/enuestaurantes-20181020115549-deployment/amplify-cfn-templates/storage/menurestaurantes-cloudformation-template.json",
+				"Parameters": {
+					"tableName": "restaurantes",
+					"partitionKeyName": "Id",
+					"partitionKeyType": "S",
+					"sortKeyName": "Nombre",
+					"sortKeyType": "S"
+				}
+			}
 		}
 	},
 	"Outputs": {

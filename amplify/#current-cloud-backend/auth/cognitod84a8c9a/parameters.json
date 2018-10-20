@@ -1,0 +1,57 @@
+{
+    "identityPoolName": "menurestaurantes_identitypool_d860cb1f",
+    "allowUnauthenticatedIdentities": true,
+    "thirdPartyAuth": false,
+    "lambdaLogPolicy": "cognitod84a8c9a_lambda_log_policy",
+    "openIdLambdaRoleName": "cognitod84a8c9a_openid_lambda_role",
+    "openIdRolePolicy": "cognitod84a8c9a_openid_pass_role_policy",
+    "openIdLambdaIAMPolicy": "cognitod84a8c9a_openid_lambda_iam_policy",
+    "openIdLogPolicy": "cognitod84a8c9a_openid_lambda_log_policy",
+    "userPoolName": "cognitod84a8c9a_userpool_de916277",
+    "autoVerifiedAttributes": [
+        "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "roleName": "cognitod84a8c9a_sns-role",
+    "roleExternalId": "cognitod84a8c9a_role_external_id",
+    "policyName": "cognitod84a8c9a-sns-policy",
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [
+        "Requires Lowercase",
+        "Requires Uppercase",
+        "Requires Numbers",
+        "Requires Symbols"
+    ],
+    "requiredAttributes": [
+        "email"
+    ],
+    "userpoolClientName": "cognitod84a8c9a_app_client",
+    "userpoolClientGenerateSecret": true,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientReadAttributes": [
+        "email"
+    ],
+    "mfaLambdaRole": "cognitod84a8c9a_totp_lambda_role",
+    "mfaLambdaLogPolicy": "cognitod84a8c9a_totp_lambda_log_policy",
+    "mfaPassRolePolicy": "cognitod84a8c9a_totp_pass_role_policy",
+    "mfaLambdaIAMPolicy": "cognitod84a8c9a_totp_lambda_iam_policy",
+    "userpoolClientLambdaRole": "cognitod84a8c9a_userpoolclient_lambda_role",
+    "userpoolClientLogPolicy": "cognitod84a8c9a_userpoolclient_lambda_log_policy",
+    "userpoolClientLambdaPolicy": "cognitod84a8c9a_userpoolclient_lambda_iam_policy",
+    "userpoolClientSetAttributes": false,
+    "resourceName": "cognitod84a8c9a",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "default",
+    "unAuthRoleName": "enuestaurantes-20181020115549-unauthRole",
+    "authRoleName": "enuestaurantes-20181020115549-authRole",
+    "unAuthRoleArn": "arn:aws:iam::551475543909:role/enuestaurantes-20181020115549-unauthRole",
+    "authRoleArn": "arn:aws:iam::551475543909:role/enuestaurantes-20181020115549-authRole"
+}

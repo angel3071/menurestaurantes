@@ -1,0 +1,69 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "enuestaurantes-20181020115549-authRole",
+			"UnauthRoleArn": "arn:aws:iam::551475543909:role/enuestaurantes-20181020115549-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::551475543909:role/enuestaurantes-20181020115549-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "enuestaurantes-20181020115549-deployment",
+			"UnauthRoleName": "enuestaurantes-20181020115549-unauthRole",
+			"StackName": "enuestaurantes-20181020115549",
+			"StackId": "arn:aws:cloudformation:us-east-1:551475543909:stack/enuestaurantes-20181020115549/ff90f190-d488-11e8-bb30-503aca4a5899"
+		}
+	},
+	"auth": {
+		"cognitod84a8c9a": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/enuestaurantes-20181020115549-deployment/amplify-cfn-templates/auth/cognitod84a8c9a-cloudformation-template.yml",
+				"logicalId": "authcognitod84a8c9a"
+			},
+			"lastPushTimeStamp": "2018-10-20T19:18:07.017Z",
+			"output": {
+				"IdentityPoolId": "us-east-1:971cd5a9-e361-4deb-88b7-197d0717b443",
+				"IdentityPoolName": "menurestaurantes_identitypool_d860cb1f",
+				"AppClientSecret": "1h62vuoajulugvomrunfn3a35ht87cgq34ea1adfdb5hqgcniqf7",
+				"UserPoolId": "us-east-1_UP22WGEp1",
+				"AppClientIDWeb": "1co5d5oiph5527odqttnp96052",
+				"AppClientID": "1ffautlvjvei091u51ggjdgn52",
+				"UserPoolName": "cognitod84a8c9a_userpool_de916277"
+			},
+			"lastPushDirHash": "vdalgx6Ax3uCT14WRqB0ZnxkGxo=",
+			"[object Object]": {}
+		}
+	},
+	"analytics": {
+		"menurestaurantes": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/enuestaurantes-20181020115549-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsmenurestaurantes"
+			},
+			"lastPushTimeStamp": "2018-10-20T19:18:07.012Z",
+			"output": {
+				"appName": "menurestaurantes",
+				"Region": "us-east-1",
+				"Id": "d45f7d406ee14fa09291fc0827d05390"
+			},
+			"lastPushDirHash": "Z6SHOBSXkpRE8TPNKmA2zo6HTqg="
+		}
+	},
+	"storage": {
+		"menurestaurants": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/enuestaurantes-20181020115549-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"logicalId": "storagemenurestaurants"
+			},
+			"lastPushTimeStamp": "2018-10-20T19:18:07.017Z",
+			"output": {
+				"BucketName": "menurestaurantes00115e3d5cb94363b4fd344b8abb711d",
+				"Region": "us-east-1"
+			},
+			"lastPushDirHash": "6Z9MriwGSFABeBFQi66u5shIFm0="
+		}
+	}
+}

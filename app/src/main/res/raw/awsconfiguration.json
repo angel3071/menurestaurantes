@@ -1,0 +1,40 @@
+{
+    "UserAgent": "aws-amplify-cli/0.1.0",
+    "Version": "1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-1:971cd5a9-e361-4deb-88b7-197d0717b443",
+                "Region": "us-east-1"
+            }
+        }
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-east-1_UP22WGEp1",
+            "AppClientId": "1ffautlvjvei091u51ggjdgn52",
+            "AppClientSecret": "1h62vuoajulugvomrunfn3a35ht87cgq34ea1adfdb5hqgcniqf7",
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointAnalytics": {
+        "Default": {
+            "AppId": "d45f7d406ee14fa09291fc0827d05390",
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointTargeting": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    },
+    "S3TransferUtility": {
+        "Default": {
+            "Bucket": "menurestaurantes00115e3d5cb94363b4fd344b8abb711d",
+            "Region": "us-east-1"
+        }
+    }
+}

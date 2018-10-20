@@ -1,0 +1,9 @@
+{
+    "bucketName": "menurestaurantes00115e3d5cb94363b4fd344b8abb711d",
+    "authPolicyName": "s3_amplify_320be890",
+    "unauthPolicyName": "s3_amplify_320be890",
+    "authRoleName": "enuestaurantes-20181020115549-authRole",
+    "unauthRoleName": "enuestaurantes-20181020115549-unauthRole",
+    "authPermissions": "rw",
+    "unauthPermissions": "rw"
+}

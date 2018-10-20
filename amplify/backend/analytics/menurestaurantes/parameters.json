@@ -1,0 +1,11 @@
+{
+    "appName": "menurestaurantes",
+    "roleName": "pinpointLambdaRoleab49468e",
+    "cloudWatchPolicyName": "cloudWatchPolicyab49468e",
+    "pinpointPolicyName": "pinpointPolicyab49468e",
+    "authPolicyName": "pinpoint_amplify_ab49468e",
+    "unauthPolicyName": "pinpoint_amplify_ab49468e",
+    "authRoleName": "enuestaurantes-20181020115549-authRole",
+    "unauthRoleName": "enuestaurantes-20181020115549-unauthRole",
+    "IAMPrefix": "551475543909"
+}

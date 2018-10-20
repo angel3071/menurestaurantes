@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "enuestaurantes-20181020115549-authRole",
+            "UnauthRoleArn": "arn:aws:iam::551475543909:role/enuestaurantes-20181020115549-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::551475543909:role/enuestaurantes-20181020115549-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "enuestaurantes-20181020115549-deployment",
+            "UnauthRoleName": "enuestaurantes-20181020115549-unauthRole",
+            "StackName": "enuestaurantes-20181020115549",
+            "StackId": "arn:aws:cloudformation:us-east-1:551475543909:stack/enuestaurantes-20181020115549/ff90f190-d488-11e8-bb30-503aca4a5899"
+        }
+    }
+}
